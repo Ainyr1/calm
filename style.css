@@ -56,6 +56,9 @@ body{
     margin-left: 16px;
     margin-right: 870px;
 }
+.logo:hover{
+    transform: scale(1.1);
+}
 /* NAVIGATION */
 .navigation{
     width: 220px;
@@ -70,6 +73,9 @@ body{
     color: #353732;
     padding: 11px 0px;
     margin-right: 20px;
+}
+.navigation a:hover{
+    color: red;
 }
 /* START */
 .start__section{
@@ -163,6 +169,12 @@ h1{
     height: 553px;
     margin-right: 16px;
 }
+.travel__card:hover{
+    border: 1px solid #F8F8F8;
+    box-sizing: border-box;
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.5);
+    border-radius: 10px; 
+}
 .travel__card .card__title{
     margin-bottom: 12px;
 }
@@ -182,6 +194,12 @@ h1{
     height: 258px;
     margin-bottom: 18px;
 }
+.exercise__card:hover{
+    border: 1px solid #F8F8F8;
+    box-sizing: border-box;
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.5);
+    border-radius: 10px; 
+}
 .exercise__card .card__title{
     margin-bottom: 12px;
 }
@@ -194,6 +212,12 @@ h1{
 .tech__card{
     width: 245px;
     height: 279px;
+}
+.tech__card:hover{
+    border: 1px solid #F8F8F8;
+    box-sizing: border-box;
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.5);
+    border-radius: 10px; 
 }
 .tech__card .card__title{
     margin-bottom: 13px;
@@ -209,11 +233,36 @@ h1{
     height: 334px;
     margin-right: 17px;
 }
-.tech__card .card__title{
+.tech2__card:hover{
+    border: 1px solid #F8F8F8;
+    box-sizing: border-box;
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.5);
+    border-radius: 10px; 
+}
+.tech2__card .card__title{
     margin-bottom: 13px;
 }
-.tech__card .card__name{
+.tech2__card .card__name{
     margin-bottom: 10px;
     font-size: 17px;
+    line-height: 24px;
+}
+/* TUTORIAL CARD */
+.tutorial__card{
+    width: 376px;
+    height: 334px;
+}
+.tutorial__card:hover{
+    border: 1px solid #F8F8F8;
+    box-sizing: border-box;
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;    
+}
+.tutorial__card .card__title{
+    margin-bottom: 13px;
+}
+.tutorial__card .card__name{
+    margin-bottom: 10px;
+    font-size: 18px;
     line-height: 24px;
 }
