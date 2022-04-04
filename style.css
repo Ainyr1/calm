@@ -1,0 +1,219 @@
+@font-face {
+    font-family: 'Poppins';
+    src: url(../calm/font/Poppins-Regular.ttf) format("truetype");
+    font-weight: 400;
+    font-display: swap;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Georgia';
+    src: url(../calm/font/Georgia-Regular.ttf) format("truetype");
+    font-weight: 400;
+    font-display: swap;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'PalatinoLinotype';
+    src: url(../calm/font/PalatinoLinotype-Regular.ttf) format("truetype");
+    font-weight: 400;
+    font-display: swap;
+    font-style: normal;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Georgia', sans-serif;
+    font-family: 'PalatinoLinotype', sans-serif;
+    font-style: normal;
+}
+/* CONTAINERS */
+.content__wrapper{
+    width: 768px;
+    height: 100%;
+    margin: 0 auto;
+}
+/* HEADER */
+.header{
+    position: fixed;
+    height: 80px;
+    background: #FFFFFF;
+}
+.header__container{
+    padding: 20px 120px;
+    width: 1200px;
+    height: 40px;
+    display: flex;
+}
+.logo{
+    width: 78px;
+    height: 40px;
+    margin-left: 16px;
+    margin-right: 870px;
+}
+/* NAVIGATION */
+.navigation{
+    width: 220px;
+    height: 40px;
+}
+.navigation a{
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #353732;
+    padding: 11px 0px;
+    margin-right: 20px;
+}
+/* START */
+.start__section{
+    width: 1440px;
+    height: 438px;
+    background: #FFFFFF;
+}
+.start__container{
+    width: 800px;
+    height: 148px;
+    padding-top: 180px;
+    margin: 0px 320px 110px 320px;
+}
+.start__container img{
+    margin-bottom: 20px;
+}
+h1{
+    font-family: 'Palatino Linotype';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 40px;
+    color: #353732;
+}
+/* ARCHIVE */
+.archive__section{
+    width: 1440px;
+    height: 1392px;
+    background: #FFFFFF;
+}
+.archive__container{
+    width: 768px;
+    height: 1192px;
+    padding: 100px 0px;
+}
+.container__block1{
+    width: 768px;
+    height: 553px;
+    display: flex;
+    padding-top: 5px;
+    margin-bottom: 16px;
+}
+.container__block2{
+    width: 768px;
+    height: 623px;
+}
+.block2__part1{
+    display: flex;
+}
+/* ARCHIVE TEXTS */
+.card__title{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 12px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #353732;
+    padding-left: 20px;
+    margin-top: 17px;
+}
+.card__name{
+    font-family: 'PalatinoLinotype';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 34px;
+    color: #45525B;
+    padding-left: 20px;
+}
+.card__text{
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #45525B;
+    padding-left: 20px;
+}
+.card__date{
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 17px;
+    color: #45525B;
+    padding-left: 20px;
+}
+/* TRAVEL CARD */
+.travel__card{
+    width: 507px;
+    height: 553px;
+    margin-right: 16px;
+}
+.travel__card .card__title{
+    margin-bottom: 12px;
+}
+.travel__card .card__name{
+    margin-bottom: 10px;
+}
+.travel__card .card__text{
+    margin-bottom: 69px;
+}
+.cards__block{
+    width: 245px;
+    height: 553px;
+}
+/* EXERCISE CARD */
+.exercise__card{
+    width: 245px;
+    height: 258px;
+    margin-bottom: 18px;
+}
+.exercise__card .card__title{
+    margin-bottom: 12px;
+}
+.exercise__card .card__name{
+    margin-bottom: 9px;
+    font-size: 16px;
+    line-height: 22px;
+}
+/* TECH CARD _1 */
+.tech__card{
+    width: 245px;
+    height: 279px;
+}
+.tech__card .card__title{
+    margin-bottom: 13px;
+}
+.tech__card .card__name{
+    margin-bottom: 7px;
+    font-size: 18px;
+    line-height: 22px;      
+}
+/* TECH CARD _2 */
+.tech2__card{
+    width: 376px;
+    height: 334px;
+    margin-right: 17px;
+}
+.tech__card .card__title{
+    margin-bottom: 13px;
+}
+.tech__card .card__name{
+    margin-bottom: 10px;
+    font-size: 17px;
+    line-height: 24px;
+}
